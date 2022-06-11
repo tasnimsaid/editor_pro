@@ -11,18 +11,47 @@
 
     <title>editor pro jamaica design</title>
 </head>
-<body>
+<body >
+   
+
 <header>
     <center>  <span>Code Editor Jamaica design</span>  </center>
+    <img  src="img/signe windows mileviana.png" alt="" srcset="">
    
+  <center>
+        <details>
+            <summary>Top-book-learn-Code</summary>
+     
+            <p><a class="linkboys" href="img/learn/index.html" target="_blank">3schools offline تعلم جميع أكواد البرمجة</a></p>   
+            <p><a class="linkboys" href="img/book_css.pdf" target="_blank">كتاب جميع أكواد</a></p>
+            <p><a class="linkboys" href="img/Website programming using CSS _ Programmers1.pdf" target="_blank">Website programming using CSS _ Programmers1</a></p>
+             <p><a class="linkboys" href="img/كتاب html 5 بالعربية.pdf" target="_blank"> html 5 book</a></p>
+             <p><a class="linkboys" href="img/كتاب يشرح الجافا سكربت باللغة العربية.pdf" target="_blank">كتاب يشرح الجافا سكربت باللغة العربية</a></p>
+                
+              
+            
+        </details> 
+    </center>
     
-    <img src="img/signe windows mileviana.png" alt="" srcset="">
+  
+
+
+
+  
+
+       
+
+
+ 
+ 
 
 </header>
 <div class="editor">
-    <div>
-        <font size="4">[HTML-CODE]</font><br>
-        <textarea name="" id="html-code" ><!DOCTYPE html>
+    <div class="">
+
+     <h1><img id="html55" src="img/html5.png" alt="" srcset=""><font size="4">HTML-CODE</font></h1><br>
+      <!-- <font size="4">[HTML-CODE]</font><br>--> 
+        <textarea class="textarea" name=""  id="html-code" ><!DOCTYPE html>
             <html lang="en">
             <head>
                 <meta charset="UTF-8">
@@ -31,28 +60,19 @@
                 <title>Document</title>
             </head>
             <body>
-             <header></header> 
-             <aside></aside>
-             <main>
-                 <div></div>
-                 <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-                 <pre></pre>
-                 <h1></h1>
-                 <button></button>
-                 <img src="" alt="" srcset="">
-                 <embed src="" type="">
-                    
-             </main>
-             <footer></footer>
+            
             </body>
             </html></textarea>
     </div>
     <div>
-        <font size="4">[CSS-CODE]</font><br>
-        <textarea name="" id="css-code" ></textarea>
+       <!-- <font size="4">[CSS-CODE]</font><br>-->
+       <h1><img id="css55" src="img/css3.png" alt="" srcset=""><font size="4">CSS-CODE</font></h1><br>
+        <textarea name="" id="css-code" id="textarea" ></textarea>
     </div>
+
     <div>
-        <font size="4">[JS-CODE]</font><br>
+      <!--  <font size="4">[JS-CODE]</font><br>-->
+      <h1><img id="js55" src="img/js1.png" alt="" srcset=""><font size="4">JS-CODE</font></h1><br>
         <textarea name="" id="js-code" ></textarea>
     </div>
 
@@ -61,6 +81,9 @@
     <iframe id="output" frameborder="1"></iframe>
 
 </div>
+
+
+
 
 
 
@@ -79,6 +102,12 @@
     document.querySelector(".editor #css-code").addEventListener("keyup",run);
     document.querySelector(".editor #js-code").addEventListener("keyup",run);
 
+</script>
+<script>
+    function charCount(){
+}
+        var element=document.getElementById('textarea').value.length;
+  
 </script>
 
 </body>
